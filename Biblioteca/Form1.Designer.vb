@@ -32,6 +32,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LimpiarButton = New System.Windows.Forms.Button()
         Me.AceptarButton = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.LibrosListBox = New System.Windows.Forms.ListBox()
@@ -40,7 +41,6 @@ Partial Class Form1
         Me.VaciarButton = New System.Windows.Forms.Button()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.LimpiarButton = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -120,12 +120,21 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Añadir libro"
         '
+        'LimpiarButton
+        '
+        Me.LimpiarButton.Location = New System.Drawing.Point(107, 141)
+        Me.LimpiarButton.Name = "LimpiarButton"
+        Me.LimpiarButton.Size = New System.Drawing.Size(84, 31)
+        Me.LimpiarButton.TabIndex = 5
+        Me.LimpiarButton.Text = "Limpiar"
+        Me.LimpiarButton.UseVisualStyleBackColor = True
+        '
         'AceptarButton
         '
         Me.AceptarButton.Location = New System.Drawing.Point(17, 141)
         Me.AceptarButton.Name = "AceptarButton"
         Me.AceptarButton.Size = New System.Drawing.Size(84, 31)
-        Me.AceptarButton.TabIndex = 9
+        Me.AceptarButton.TabIndex = 4
         Me.AceptarButton.Text = "Aceptar"
         Me.AceptarButton.UseVisualStyleBackColor = True
         '
@@ -150,13 +159,14 @@ Partial Class Form1
         Me.LibrosListBox.Name = "LibrosListBox"
         Me.LibrosListBox.Size = New System.Drawing.Size(490, 212)
         Me.LibrosListBox.TabIndex = 11
+        Me.LibrosListBox.TabStop = False
         '
         'ExportarButton
         '
         Me.ExportarButton.Location = New System.Drawing.Point(107, 259)
         Me.ExportarButton.Name = "ExportarButton"
         Me.ExportarButton.Size = New System.Drawing.Size(84, 31)
-        Me.ExportarButton.TabIndex = 11
+        Me.ExportarButton.TabIndex = 7
         Me.ExportarButton.Text = "Exportar"
         Me.ExportarButton.UseVisualStyleBackColor = True
         '
@@ -165,7 +175,7 @@ Partial Class Form1
         Me.ImportarButton.Location = New System.Drawing.Point(197, 259)
         Me.ImportarButton.Name = "ImportarButton"
         Me.ImportarButton.Size = New System.Drawing.Size(84, 31)
-        Me.ImportarButton.TabIndex = 10
+        Me.ImportarButton.TabIndex = 8
         Me.ImportarButton.Text = "Importar"
         Me.ImportarButton.UseVisualStyleBackColor = True
         '
@@ -174,22 +184,13 @@ Partial Class Form1
         Me.VaciarButton.Location = New System.Drawing.Point(17, 259)
         Me.VaciarButton.Name = "VaciarButton"
         Me.VaciarButton.Size = New System.Drawing.Size(84, 31)
-        Me.VaciarButton.TabIndex = 9
+        Me.VaciarButton.TabIndex = 6
         Me.VaciarButton.Text = "Vaciar"
         Me.VaciarButton.UseVisualStyleBackColor = True
         '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        '
-        'LimpiarButton
-        '
-        Me.LimpiarButton.Location = New System.Drawing.Point(107, 141)
-        Me.LimpiarButton.Name = "LimpiarButton"
-        Me.LimpiarButton.Size = New System.Drawing.Size(84, 31)
-        Me.LimpiarButton.TabIndex = 10
-        Me.LimpiarButton.Text = "Limpiar"
-        Me.LimpiarButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
